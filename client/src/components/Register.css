@@ -1,6 +1,21 @@
+.card,
 form {
-  display: grid;
-  place-items: center;
-  background-color: red;
-  height: 80vh;
+  background-color: darkred;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-page,
+form {
+  min-height: 90.2vh;
+  margin: 0;
 }

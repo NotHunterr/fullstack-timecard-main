@@ -3,7 +3,7 @@ import React from 'react'
 const Register = () => {
   return (
     <div className="main-page">
-      <div className="form">
+      <div className="card">
         <form>
           <label htmlFor="firstName">First Name</label>
           <input type="text" name="firstName" placeholder="Hunter..." />
