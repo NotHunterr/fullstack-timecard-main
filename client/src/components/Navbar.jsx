@@ -2,22 +2,21 @@ import React from 'react'
 import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom'
 import Login from './Login'
 import Register from './Register'
-import './Navbar.css'
+import './Register.css'
 
 const Navbar = () => {
   return (
     <div>
-      <div className="nav">
-        <Router>
+      <Router>
+        <div className="nav">
           <Link to="/Register" className="dirs">
             Register
           </Link>
           <Link to="/Login" className="dirs">
             Login
           </Link>
-        </Router>
-      </div>
-      <Router>
+        </div>
+
         <Routes>
           <Route
             path="/Register"
